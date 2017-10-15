@@ -5,7 +5,7 @@ using System.Numerics;
 
 namespace KelsonBall.Geometry.Shapes
 {
-    public class Shape : IBorder<Vector2>, IRegion<Vector2>, IComposable<Shape>, ITransformable<Shape, Vector2>
+    public abstract class Shape : IBorder<Vector2>, IRegion<Vector2>, IComposable<Shape>, ITransformable<Shape, Vector2>
     {
         private readonly TransformStack<Vector2> transformStack = Transform2.NewTransformStack();
 
