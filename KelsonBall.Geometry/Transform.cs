@@ -24,6 +24,8 @@ namespace KelsonBall.Geometry
 
         public abstract T ApplyTo(T vector);
 
+        public abstract T ApplyInverse(T vector);
+
         protected Transform(int dim)
         {
             transform = DenseMatrix.Create(dim, dim, 0);
@@ -64,6 +66,6 @@ namespace KelsonBall.Geometry
 
         public Transform<T> Peek() => stack.Peek();
 
-        public static implicit operator Transform<T>(TransformStack<T> stack) => stack.aggregate;        
+        public static implicit operator Transform<T>(TransformStack<T> stack) => stack.aggregate;
     }
 }

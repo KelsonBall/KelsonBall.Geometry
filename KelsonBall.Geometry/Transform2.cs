@@ -10,7 +10,7 @@ namespace KelsonBall.Geometry
 
         private Transform2() : base(3)
         {
-            
+
         }
 
         private Transform2(double[,] matrix) : base(matrix)
@@ -21,6 +21,12 @@ namespace KelsonBall.Geometry
         {
             var affineVector = VectorExtensions.GetMathVector(v.X, v.Y, 1);
             return (transform * affineVector).ToVector2();
+        }
+
+        public override Vector2 ApplyInverse(Vector2 v)
+        {
+            var affineVector = VectorExtensions.GetMathVector(v.X, v.Y, 1);
+            return (inverse * affineVector).ToVector2();
         }
 
         internal static Transform2 Translation(double x, double y)

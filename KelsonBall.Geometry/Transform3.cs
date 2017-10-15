@@ -20,6 +20,12 @@ namespace KelsonBall.Geometry
             return (transform * affineVector).ToVector3();
         }
 
+        public override Vector3 ApplyInverse(Vector3 v)
+        {
+            var affineVector = VectorExtensions.GetMathVector(v.X, v.Y, v.Z, 1);
+            return (inverse * affineVector).ToVector3();
+        }
+
         private Transform3() : base(4) { }
 
         private Transform3(double[,] matrix) : base(matrix) { }
@@ -36,11 +42,11 @@ namespace KelsonBall.Geometry
 
         public static Transform3 Rotation(double Θ, double l, double m, double n)
         {
-            double cos = Cos(Θ);            
+            double cos = Cos(Θ);
             double icos = 1 - cos;
 
             double sin = Sin(Θ);
-            
+
             return new Transform3(new double[,]{
                 { l * l * icos + 1 * cos, m * l * icos - n * sin, n * l * icos + m * sin, 0 },
                 { l * m * icos + n * sin, m * m * icos + 1 * cos, n * m * icos - l * sin, 0 },
