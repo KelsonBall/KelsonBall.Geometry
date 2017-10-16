@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KelsonBall.Geometry", "KelsonBall.Geometry\KelsonBall.Geometry.csproj", "{BA53AA03-3CEE-4019-A026-04A1D21B7D13}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelsonBall.VectorExtensions", "KelsonBall.VectorExtensions\KelsonBall.VectorExtensions.csproj", "{C2A3BE9B-987A-4668-B2EB-FE930D5F8804}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AF664515-E94A-4DE8-B823-5B382353FD1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelsonBall.Geometry.Tests", "KelsonBall.Geometry.Tests\KelsonBall.Geometry.Tests.csproj", "{23F3BE2C-8CF8-4385-B72F-CCE1A11D3CCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelsonBall.VectorExtensions.Tests", "KelsonBall.VectorExtensions.Tests\KelsonBall.VectorExtensions.Tests.csproj", "{53072915-0061-4807-BFD4-CF2112F22628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KelsonBall.Transforms", "KelsonBall.Transforms\KelsonBall.Transforms.csproj", "{849BCB1A-E9CD-4D0F-A272-D4F43A099E96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{BA53AA03-3CEE-4019-A026-04A1D21B7D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA53AA03-3CEE-4019-A026-04A1D21B7D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA53AA03-3CEE-4019-A026-04A1D21B7D13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2A3BE9B-987A-4668-B2EB-FE930D5F8804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2A3BE9B-987A-4668-B2EB-FE930D5F8804}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2A3BE9B-987A-4668-B2EB-FE930D5F8804}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2A3BE9B-987A-4668-B2EB-FE930D5F8804}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23F3BE2C-8CF8-4385-B72F-CCE1A11D3CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23F3BE2C-8CF8-4385-B72F-CCE1A11D3CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23F3BE2C-8CF8-4385-B72F-CCE1A11D3CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,6 +31,10 @@ Global
 		{53072915-0061-4807-BFD4-CF2112F22628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53072915-0061-4807-BFD4-CF2112F22628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53072915-0061-4807-BFD4-CF2112F22628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849BCB1A-E9CD-4D0F-A272-D4F43A099E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849BCB1A-E9CD-4D0F-A272-D4F43A099E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849BCB1A-E9CD-4D0F-A272-D4F43A099E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849BCB1A-E9CD-4D0F-A272-D4F43A099E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

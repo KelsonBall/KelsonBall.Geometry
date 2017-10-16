@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="3.20.0" />
+    <PackageReference Include="System.Numerics.Vectors" Version="4.4.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>KelsonBall.Vectors</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Kelson Ball</Authors>
+    <Description>Provides additional mathematical operations for System.Numerics.Vector types</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>MIT License</Copyright>
+    <PackageTags>vector arithmetic math projection extensions</PackageTags>
+  </PropertyGroup>
+</Project>

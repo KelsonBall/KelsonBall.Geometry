@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Numerics;
-using KelsonBall.VectorExtensions;
+using KelsonBall.Vectors;
 using System.Collections.Generic;
 using KelsonBall.Geometry.Solids;
 using System.Linq;

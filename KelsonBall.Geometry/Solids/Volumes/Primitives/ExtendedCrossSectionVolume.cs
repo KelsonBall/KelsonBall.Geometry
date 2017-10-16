@@ -1,5 +1,5 @@
 ﻿using KelsonBall.Geometry.Areas;
-using KelsonBall.VectorExtensions;
+using KelsonBall.Vectors;
 using System.Numerics;
 
 namespace KelsonBall.Geometry.Volumes.Primitives

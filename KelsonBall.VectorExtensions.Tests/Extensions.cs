@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace KelsonBall.VectorExtensions.Tests
+namespace KelsonBall.Vectors.Tests
 {
     public static class AssertFloat
     {

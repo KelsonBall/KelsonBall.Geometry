@@ -1,5 +1,4 @@
 ﻿using KelsonBall.Geometry.Solids.Primitives;
-using System;
 using System.Numerics;
 
 namespace KelsonBall.Geometry.Volumes.Primitives

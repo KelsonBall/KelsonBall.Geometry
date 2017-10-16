@@ -1,9 +1,7 @@
 ﻿using KelsonBall.Geometry.Shapes;
-using KelsonBall.VectorExtensions;
-using System;
+using KelsonBall.Vectors;
 using System.Collections.Generic;
 using System.Numerics;
-using System.Text;
 
 namespace KelsonBall.Geometry.Surfaces.Primitives
 {

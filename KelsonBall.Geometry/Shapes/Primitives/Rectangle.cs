@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Text;
-using KelsonBall.Geometry.Areas;
+﻿using System.Numerics;
 
 namespace KelsonBall.Geometry.Shapes.Primitives
 {

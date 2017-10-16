@@ -1,4 +1,5 @@
 ﻿using KelsonBall.Geometry.Solids;
+using KelsonBall.Transforms;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -8,7 +9,7 @@ namespace KelsonBall.Geometry.Surfaces
     public abstract class Surface : IBorder<Vector3>
     {
 
-        public virtual Surface Transform(Transform3 transformation)
+        public virtual Surface Transform(Transform<Vector3> transformation)
         {
             var tSurface = new TransformSurface(this);
 

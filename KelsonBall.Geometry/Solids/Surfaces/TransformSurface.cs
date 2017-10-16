@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using KelsonBall.Transforms;
+using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using KelsonBall.Geometry.Solids;
 
 namespace KelsonBall.Geometry.Surfaces
 {
@@ -10,13 +12,15 @@ namespace KelsonBall.Geometry.Surfaces
 
         private readonly TransformStack<Vector3> transformStack;
 
+        public override ISurfaceVertexAlgorithm VertexAlgorithm { get => Root.VertexAlgorithm; set => Root.VertexAlgorithm = value; }
+
         internal TransformSurface(Surface root)
         {
             Root = root;
             transformStack = Transform3.NewTransformStack();
         }
 
-        public override Surface Transform(Transform3 transformation)
+        public override Surface Transform(Transform<Vector3> transformation)
         {
             transformStack.Push(transformation);
             return this;

@@ -1,9 +1,9 @@
-﻿using System;
+﻿using KelsonBall.Transforms;
 using System.Numerics;
 
 namespace KelsonBall.Geometry.Areas
 {
-    public abstract class Area : IRegion<Vector2>, IComposable<Area> ITransformable<Area, Vector2>
+    public abstract class Area : IRegion<Vector2>, IComposable<Area>, ITransformable<Area, Vector2>
     {
         public abstract bool Contains(Vector2 point);
 

@@ -18,7 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KelsonBall.VectorExtensions\KelsonBall.VectorExtensions.csproj" />
+    <ProjectReference Include="..\KelsonBall.Transforms\KelsonBall.Transforms.csproj" />
+    <ProjectReference Include="..\KelsonBall.VectorExtensions\KelsonBall.Vectors.csproj" />
   </ItemGroup>
 
 </Project>

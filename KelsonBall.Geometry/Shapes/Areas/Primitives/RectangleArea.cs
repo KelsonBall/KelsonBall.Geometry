@@ -1,7 +1,4 @@
 ﻿using KelsonBall.Geometry.Shapes.Primitives;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Numerics;
 using KelsonBall.Geometry.Areas;
 

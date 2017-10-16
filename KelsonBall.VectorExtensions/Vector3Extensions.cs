@@ -2,7 +2,7 @@
 using static System.Math;
 using Vector = System.Numerics.Vector3;
 
-namespace KelsonBall.VectorExtensions
+namespace KelsonBall.Vectors
 {
     public static partial class Vector3Extensions
     {

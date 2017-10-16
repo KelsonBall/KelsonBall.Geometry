@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KelsonBall.Transforms;
+using System;
 using System.Collections.Generic;
 using System.Numerics;
 
@@ -38,7 +39,5 @@ namespace KelsonBall.Geometry
         {
             throw new NotImplementedException();
         }
-
-
     }
 }

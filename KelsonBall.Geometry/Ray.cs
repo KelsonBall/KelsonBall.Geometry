@@ -1,5 +1,5 @@
-﻿using KelsonBall.VectorExtensions;
-using System;
+﻿using KelsonBall.Transforms;
+using KelsonBall.Vectors;
 using System.Numerics;
 
 namespace KelsonBall.Geometry

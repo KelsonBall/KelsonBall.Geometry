@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Numerics;
 
-namespace KelsonBall.VectorExtensions.Tests
+namespace KelsonBall.Vectors.Tests
 {
     [TestClass]
     public class DotProductTests
